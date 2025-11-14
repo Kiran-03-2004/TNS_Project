@@ -4,7 +4,7 @@ import java.util.List;
 
 public class UnboundedWildCardDisplay {
 	public static void display(List<?> l) {
-		for (Object o : l) {
+		for (var o : l) {
 			System.out.println(o);
 		}
 
